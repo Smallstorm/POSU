@@ -1,0 +1,21 @@
+[
+	[2,3,4,5],
+	{
+		"key1" : 34534,
+		"key2" : "text for key1",
+		"key3" : [234, 345, 345]
+	},
+	[0,1,2,3,4,5,6,7],
+	{
+		"key1" : 34534,
+		"key2" : "text for key2",
+		"key3" : [234, 345, 345]
+	},
+	3453,
+	"some text, some more text",
+	{
+		"1" : 34534
+	},
+	"some text, some more text and a bit more text",
+	true
+]
