@@ -4,12 +4,13 @@ from pprint import pprint
 with open('input.jsonc', 'r') as f:
           text = json.load(f)
 
-pprint(text)
+# pprint(text)
 
 num_to_remove = list()
 i = 0
 j = 0
-while(i < len(text)):    
+for i, el in enumerate(text):
+# while(i < len(text)):    
 
     if (isinstance(text[i],list)):  #list edit
         num_to_remove.clear()  
@@ -25,7 +26,7 @@ while(i < len(text)):
     if (isinstance(text[i],str)):  #string edit  
          text[i] = text[i][: len(text[i])//2]    
 
-    i += 1      
+    # i += 1      
 
 pprint(text)            
 
