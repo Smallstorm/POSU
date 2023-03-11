@@ -1,8 +1,3 @@
-class Cats():
-    attr1 = 42
-    def meth(self,x):
-        print(2*x)
-        return
-
-obj = Cats()
-obj.meth(2)    
+class sudoku():
+    def __init__(self,x,y,z):
+        self.n
